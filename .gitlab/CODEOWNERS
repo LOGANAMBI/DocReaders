@@ -1,2 +1,2 @@
-*.java @LOGANAMBI @LogiNambi
+*.java @LogiNambi
 /.settings/* @LogiNambi
