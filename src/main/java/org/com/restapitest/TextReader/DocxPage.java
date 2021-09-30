@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.xwpf.extractor.XWPFWordExtractor;
@@ -25,6 +24,5 @@ public class DocxPage {
 	public String getOtherText(File file) throws FileNotFoundException {
 		 FileInputStream fis = new FileInputStream(file.getAbsolutePath());
 		return null;
-		 
-	}
+		 }
 }
