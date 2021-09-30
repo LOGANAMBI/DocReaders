@@ -10,7 +10,7 @@ import org.apache.poi.xwpf.extractor.XWPFWordExtractor;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 
 public class DocxPage {
-@SuppressWarnings("resource")
+
 	public String getDocxText(File file) throws InvalidFormatException, IOException {
         FileInputStream fis = new FileInputStream(file.getAbsolutePath());
 		XWPFDocument xdoc = new XWPFDocument(OPCPackage.open(fis));
